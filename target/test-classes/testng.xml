@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test suite">
+    <test name="Test parameters">
+        <parameter name = "firstNumber" value="1"/>
+        <parameter name = "secondNumber" value="2"/>
+        <parameter name = "result" value="3"/>
+        <classes>
+            <class name="ParametersTest"/>
+        </classes>
+    </test>
+    <test name="Test data provider">
+        <classes>
+            <class name="DataProviderTest"/>
+        </classes>
+    </test>
+    <test name="Factory provider">
+        <classes>
+            <class name="FactoryTestFactory"/>
+        </classes>
+    </test>
+</suite>

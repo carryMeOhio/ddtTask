@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="300" started-at="2018-04-16T19:15:39Z" finished-at="2018-04-16T19:15:39Z">
+    <groups>
+    </groups>
+    <test name="Test parameters" duration-ms="84" started-at="2018-04-16T19:15:39Z" finished-at="2018-04-16T19:15:39Z">
+      <class name="ParametersTest">
+        <test-method status="PASS" signature="verifySum(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:ParametersTest@3ac3fd8b]" name="verifySum" duration-ms="16" started-at="2018-04-16T19:15:39Z" finished-at="2018-04-16T19:15:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySum -->
+      </class> <!-- ParametersTest -->
+    </test> <!-- Test parameters -->
+    <test name="Test data provider" duration-ms="3" started-at="2018-04-16T19:15:39Z" finished-at="2018-04-16T19:15:39Z">
+      <class name="DataProviderTest">
+        <test-method status="PASS" signature="verifySum(int, int, int)[pri:0, instance:DataProviderTest@566776ad]" name="verifySum" duration-ms="0" started-at="2018-04-16T19:15:39Z" data-provider="getSum" finished-at="2018-04-16T19:15:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySum -->
+        <test-method status="PASS" signature="verifySum(int, int, int)[pri:0, instance:DataProviderTest@566776ad]" name="verifySum" duration-ms="0" started-at="2018-04-16T19:15:39Z" data-provider="getSum" finished-at="2018-04-16T19:15:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySum -->
+      </class> <!-- DataProviderTest -->
+    </test> <!-- Test data provider -->
+  </suite> <!-- Suite -->
+</testng-results>
